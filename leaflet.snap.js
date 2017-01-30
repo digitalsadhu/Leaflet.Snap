@@ -1,4 +1,4 @@
-(function () {
+module.exports = function (L) {
 
 L.Handler.MarkerSnap = L.Handler.extend({
     options: {
@@ -357,4 +357,4 @@ L.Draw.Feature.SnapMixin = {
 L.Draw.Feature.include(L.Draw.Feature.SnapMixin);
 L.Draw.Feature.addInitHook('_snap_initialize');
 
-})();
+}
